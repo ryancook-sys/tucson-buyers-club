@@ -1,4 +1,5 @@
 // app/page.tsx
+"use client";
 import React, { useState } from "react";
 
 export default function LandingPage() {
