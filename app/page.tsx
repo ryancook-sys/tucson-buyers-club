@@ -73,7 +73,7 @@ export default function LandingPage() {
               </form>
             ) : (
               <div className="rounded-xl border border-neutral-200 p-4">
-                <p className="font-medium">You're on the list. 🎉</p>
+                <p className="font-medium">You&apos;re on the list. 🎉</p>
               </div>
             )}
           </div>
