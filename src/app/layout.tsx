@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "Tucson Buyers Club",
     images: [{ url: "/og.png", width: 1200, height: 630, alt: "Tucson Buyers Club" }],
     type: "website",
-  },s
+  },
   twitter: {
     card: "summary_large_image",
     title: "Tucson Buyers Club",
