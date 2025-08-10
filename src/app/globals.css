@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* Base */
 html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
@@ -16,10 +14,8 @@ body { background: #fff; color: #000; font-family: var(--font-inter), system-ui,
 @layer components {
   .card { @apply rounded-2xl border border-neutral-200 p-6 hover:shadow-sm transition-shadow bg-white; }
   .eyebrow { @apply text-[11px] tracking-widest uppercase text-neutral-500; }
-  .input {
-    @apply rounded-xl border border-neutral-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black bg-white placeholder:text-neutral-400;
-  }
-  .btn-primary {
-    @apply rounded-xl bg-black px-5 py-3 text-white font-medium hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed;
-  }
+  .input { @apply rounded-xl border border-neutral-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black bg-white placeholder:text-neutral-400; }
+  .btn-primary { @apply rounded-xl bg-black px-5 py-3 text-white font-medium hover:opacity-90 disabled:opacity-60 disabled:cursor-not-allowed; }
 }
+
+body { outline: 3px dashed #00a2ff; }
